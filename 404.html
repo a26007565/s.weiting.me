@@ -16,7 +16,7 @@
           // 取出當前網址中，最後一個 / 之後的值
           var fragment = location.pathname.split('/').pop().toLocaleLowerCase();
           var url = map.get(fragment);
-          location.href = url ? url : './index.html';
+          location.href = url ? url : '/';
         });
     })();
   </script>
